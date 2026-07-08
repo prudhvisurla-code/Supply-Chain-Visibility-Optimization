@@ -1,237 +1,231 @@
-# 📊 Supply Chain Analytics Dashboard
+ Supply Chain Analytics – Milestone 1
 
-## 📌 Project Overview
+ Power BI Data Modeling Project using Star Schema
 
-The **Supply Chain Analytics Dashboard** is an interactive Power BI project developed to analyze and monitor supply chain performance. The dashboard provides valuable insights into sales, customers, products, shipping, and profitability, enabling businesses to make data-driven decisions.
+Designing a scalable and optimized data model for Supply Chain Analytics using **Power BI**, **Power Query**, and **DAX** following industry-standard **Star Schema** architecture.
 
-This project follows a **Star Schema Data Model**, improving query performance and making reporting more efficient.
+ Project Overview
 
----
+This repository contains **Milestone 1** of the **Supply Chain Analytics** project developed in **Power BI**.
 
-## 🎯 Objectives
+The objective of this milestone is to transform raw supply chain data into a well-structured **Star Schema Data Model**, creating a solid foundation for future business intelligence dashboards and advanced analytics.
 
-- Analyze overall sales performance
-- Monitor shipping efficiency and delivery delays
-- Identify profitable products and categories
-- Understand customer purchasing behavior
-- Track regional sales performance
-- Build an optimized Power BI data model using Fact and Dimension tables
+Rather than focusing on visualization, this milestone emphasizes **data preparation, dimensional modeling, relationship management, and model optimization** to support efficient reporting.
 
----
+ Objectives
 
-## 🛠️ Tools & Technologies
-
-- **Power BI Desktop**
-- **Power Query**
-- **DAX (Data Analysis Expressions)**
-- **Microsoft Excel**
-- **CSV**
-- **Star Schema Data Modeling**
+- Convert raw data into an analytical model
+- Design an optimized Star Schema
+- Create reusable Dimension Tables
+- Build a centralized Fact Table
+- Establish efficient relationships
+- Improve query performance
+- Prepare the model for future dashboard development
 
 ---
 
-## 📂 Project Structure
+ Technologies Used
 
-```
-Milestone1/
+| Tool | Purpose |
+|------|----------|
+| Power BI Desktop | Data Modeling |
+| Power Query | ETL & Data Cleaning |
+| DAX | Calculated Columns & Measures |
+| Microsoft Excel | Dimension Tables |
+| CSV | Fact Table Storage |
+
+ Repository Structure
+
+SupplyChain_Milestone1/
 │
-├── data/
-│   ├── Fact_table.csv
-│   ├── Dim_Category.xlsx
-│   ├── Dim_Customer.xlsx
-│   ├── Dim_Date.xlsx
-│   ├── Dim_Department.xlsx
-│   ├── Dim_Location.xlsx
-│   ├── Dim_Product.xlsx
-│   └── Dim_Shipping.xlsx
-│
-├── screenshots/
-│   └── Data_model.png
+├── Fact_table.csv
+├── Dim_Category.xlsx
+├── Dim_Customer.xlsx
+├── Dim_Date.xlsx
+├── Dim_Department.xlsx
+├── Dim_Location.xlsx
+├── Dim_Product.xlsx
+├── Dim_Shipping.xlsx
 │
 ├── SupplyChain_Milestone1.pbix
 │
+├── Data_model.png
+│
 └── README.md
-```
+
+ Dataset Description
+
+The project uses a supply chain dataset consisting of transactional and dimensional data.
+
+Fact Table
+
+| Table | Description |
+|--------|-------------|
+| Fact_table | Contains transactional supply chain records including orders, products, customers, shipping, sales, and related business information. |
+
+Dimension Tables
+
+| Table | Description |
+|--------|-------------|
+| Dim_Customer | Customer information |
+| Dim_Product | Product details |
+| Dim_Category | Product categories |
+| Dim_Department | Department information |
+| Dim_Date | Calendar table |
+| Dim_Location | Geographic information |
+| Dim_Shipping | Shipping details |
 
 ---
 
-## 🗄️ Dataset
+ Star Schema Data Model
 
-The project uses a Supply Chain dataset containing information about:
+The project follows the **Star Schema** architecture, a widely adopted modeling technique in Business Intelligence.
 
-- Orders
-- Customers
-- Products
-- Categories
-- Departments
-- Shipping
-- Locations
-- Sales
-- Profit
-- Delivery Status
+Benefits
 
----
+- Faster report performance
+- Reduced redundancy
+- Easier maintenance
+- Simplified DAX calculations
+- Improved scalability
+- Better filtering and aggregation
 
-## ⭐ Data Model
 
-The dashboard follows a **Star Schema**.
+ Data Model
 
-### Fact Table
+Place the image inside the repository and GitHub will display it automatically.
+Data_model.png
+Or embed it directly: markdown
 
-- Fact_table
+ Data Modeling Process
 
-Contains transactional data including:
+Step 1
 
-- Sales
-- Profit
-- Order Details
-- Shipping Details
-- Product Information
-- Customer Information
+Import raw supply chain dataset
 
-### Dimension Tables
+↓
 
-- Dim_Category
-- Dim_Customer
-- Dim_Date
-- Dim_Department
-- Dim_Location
-- Dim_Product
-- Dim_Shipping
+Step 2
 
-These tables provide descriptive attributes for filtering and reporting.
+Clean data using Power Query
 
----
+↓
 
-## 📈 Dashboard Features
+Step 3
 
-The dashboard enables users to:
+Create Dimension Tables
 
-- View Total Sales
-- Analyze Profit
-- Monitor Shipping Performance
-- Compare Scheduled vs Actual Delivery
-- Analyze Product Categories
-- Track Customer Segments
-- View Regional Sales
-- Filter by Date
-- Filter by Category
-- Filter by Market
-- Filter by Shipping Mode
+↓
 
----
+Step 4
 
-## 📊 KPIs
+Create Fact Table
 
-Typical KPIs included in the dashboard:
+↓
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Sales per Customer
-- Average Shipping Days
-- Late Delivery Risk
-- Profit Ratio
-- Product Performance
-- Regional Sales
+Step 5
 
----
+Define Relationships
 
-## 📷 Data Model
+↓
 
-The project includes the Power BI data model screenshot.
+Step 6
 
-```
-screenshots/Data_model.png
-```
+Build Star Schema
 
----
+↓
 
-## ⚙️ Power BI Features Used
+Step 7
 
-- Power Query for ETL
-- Data Cleaning
-- Data Transformation
-- Relationship Management
-- Star Schema Modeling
-- DAX Measures
-- Slicers
-- Cards
-- Charts
-- Matrix Visuals
-- Interactive Filters
+Validate Data Model
 
----
+↓
 
-## 🚀 How to Use
+Step 8
 
-1. Download the repository.
-2. Open **SupplyChain_Milestone1.pbix** using Power BI Desktop.
-3. Refresh the dataset if required.
-4. Explore the interactive dashboard using slicers and filters.
+Prepare for Dashboard Development
 
----
 
-## 📌 Business Insights
+ Data Modeling Features
 
-This dashboard helps businesses to:
+✔ Star Schema Design
 
-- Identify high-performing products
-- Detect delayed shipments
-- Monitor profitability
-- Improve customer satisfaction
-- Optimize inventory decisions
-- Improve regional sales strategies
-- Support data-driven business decisions
+✔ One-to-Many Relationships
 
----
+✔ Primary & Foreign Keys
 
-## 📚 Skills Demonstrated
+✔ Separate Fact & Dimension Tables
 
-- Power BI
+✔ Optimized Data Model
+
+✔ Date Dimension
+
+✔ Product Dimension
+
+✔ Customer Dimension
+
+✔ Shipping Dimension
+
+✔ Location Dimension
+
+✔ Category Dimension
+
+✔ Department Dimension
+
+ Skills Demonstrated
+
 - Data Modeling
+- Data Warehousing
 - Star Schema Design
-- DAX
-- Power Query
+- Dimensional Modeling
 - ETL
-- Data Visualization
+- Data Cleaning
+- Power Query
+- DAX
+- Relationship Management
+- Power BI Desktop
 - Business Intelligence
-- Dashboard Design
-- Data Analysis
 
----
+ Future Enhancements
 
-## 👨‍💻 Author
+The upcoming milestones will include:
 
-**Prudhvi Surla**
+- Interactive Power BI Dashboard
+- Executive Dashboard
+- KPI Cards
+- Sales Analytics
+- Profit Analysis
+- Customer Analytics
+- Shipping Performance Analysis
+- Geographic Analysis
+- Time Intelligence using DAX
+- Drill-through Reports
+- Advanced Measures
+- Power BI Service Deployment
 
+ Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Designing enterprise-level Star Schemas
+- Creating optimized Power BI data models
+- Building reusable dimension tables
+- Understanding Fact vs Dimension table concepts
+- Applying data warehousing best practices
+- Preparing analytical datasets for reporting
+
+ Author
+Prudhvi Surla
 Aspiring Data Analyst
 
-### Skills
+Skills
 
 - Power BI
 - SQL
-- Excel
 - Python
+- Excel
 - Data Analysis
 - Data Visualization
 - Business Intelligence
-
----
-
-## ⭐ Future Enhancements
-
-- Add Row-Level Security (RLS)
-- Implement Incremental Refresh
-- Add Forecasting
-- Publish to Power BI Service
-- Automate Data Refresh
-- Add Advanced DAX KPIs
-- Create Executive Dashboard
-- Build Mobile Layout
-
----
-
-## 📄 License
-
-This project is intended for educational and portfolio purposes.
+  
+⭐ If you found this project helpful, consider giving it a Star!
