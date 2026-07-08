@@ -34,24 +34,6 @@ Rather than focusing on visualization, this milestone emphasizes **data preparat
 | Microsoft Excel | Dimension Tables |
 | CSV | Fact Table Storage |
 
- Repository Structure
-
-SupplyChain_Milestone1/
-│
-├── Fact_table.csv
-├── Dim_Category.xlsx
-├── Dim_Customer.xlsx
-├── Dim_Date.xlsx
-├── Dim_Department.xlsx
-├── Dim_Location.xlsx
-├── Dim_Product.xlsx
-├── Dim_Shipping.xlsx
-│
-├── SupplyChain_Milestone1.pbix
-│
-├── Data_model.png
-│
-└── README.md
 
  Dataset Description
 
