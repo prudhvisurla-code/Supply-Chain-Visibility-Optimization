@@ -1,10 +1,17 @@
- Supply Chain Analytics – Milestone 1
+<div align="center">
 
- Power BI Data Modeling Project using Star Schema
+# Supply Chain Analytics – Milestone 1
+
+###  Power BI Data Modeling Project using Star Schema
 
 Designing a scalable and optimized data model for Supply Chain Analytics using **Power BI**, **Power Query**, and **DAX** following industry-standard **Star Schema** architecture.
 
- Project Overview
+
+</div>
+
+---
+
+#  Project Overview
 
 This repository contains **Milestone 1** of the **Supply Chain Analytics** project developed in **Power BI**.
 
@@ -12,7 +19,9 @@ The objective of this milestone is to transform raw supply chain data into a wel
 
 Rather than focusing on visualization, this milestone emphasizes **data preparation, dimensional modeling, relationship management, and model optimization** to support efficient reporting.
 
- Objectives
+---
+
+#  Objectives
 
 - Convert raw data into an analytical model
 - Design an optimized Star Schema
@@ -24,7 +33,7 @@ Rather than focusing on visualization, this milestone emphasizes **data preparat
 
 ---
 
- Technologies Used
+#  Technologies Used
 
 | Tool | Purpose |
 |------|----------|
@@ -35,17 +44,19 @@ Rather than focusing on visualization, this milestone emphasizes **data preparat
 | CSV | Fact Table Storage |
 
 
- Dataset Description
+# Dataset Description
 
 The project uses a supply chain dataset consisting of transactional and dimensional data.
 
-Fact Table
+## Fact Table
 
 | Table | Description |
 |--------|-------------|
 | Fact_table | Contains transactional supply chain records including orders, products, customers, shipping, sales, and related business information. |
 
-Dimension Tables
+---
+
+## Dimension Tables
 
 | Table | Description |
 |--------|-------------|
@@ -59,11 +70,11 @@ Dimension Tables
 
 ---
 
- Star Schema Data Model
+#  Star Schema Data Model
 
 The project follows the **Star Schema** architecture, a widely adopted modeling technique in Business Intelligence.
 
-Benefits
+### Benefits
 
 - Faster report performance
 - Reduced redundancy
@@ -72,63 +83,77 @@ Benefits
 - Improved scalability
 - Better filtering and aggregation
 
+---
 
- Data Model
+#  Data Model
 
 Place the image inside the repository and GitHub will display it automatically.
+
+```
 Data_model.png
-Or embed it directly: markdown
+```
 
- Data Modeling Process
+Or embed it directly:
 
-Step 1
+```markdown
+<p align="center">
+<img src="Data_model.png" width="900">
+</p>
+```
+
+---
+
+#  Data Modeling Process
+
+### Step 1
 
 Import raw supply chain dataset
 
 ↓
 
-Step 2
+### Step 2
 
 Clean data using Power Query
 
 ↓
 
-Step 3
+### Step 3
 
 Create Dimension Tables
 
 ↓
 
-Step 4
+### Step 4
 
 Create Fact Table
 
 ↓
 
-Step 5
+### Step 5
 
 Define Relationships
 
 ↓
 
-Step 6
+### Step 6
 
 Build Star Schema
 
 ↓
 
-Step 7
+### Step 7
 
 Validate Data Model
 
 ↓
 
-Step 8
+### Step 8
 
 Prepare for Dashboard Development
 
+---
 
- Data Modeling Features
+#  Data Modeling Features
 
 ✔ Star Schema Design
 
@@ -154,7 +179,9 @@ Prepare for Dashboard Development
 
 ✔ Department Dimension
 
- Skills Demonstrated
+---
+
+# 📈 Skills Demonstrated
 
 - Data Modeling
 - Data Warehousing
@@ -168,7 +195,9 @@ Prepare for Dashboard Development
 - Power BI Desktop
 - Business Intelligence
 
- Future Enhancements
+---
+
+#  Future Enhancements
 
 The upcoming milestones will include:
 
@@ -185,7 +214,9 @@ The upcoming milestones will include:
 - Advanced Measures
 - Power BI Service Deployment
 
- Learning Outcomes
+---
+
+# Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -196,11 +227,15 @@ Through this project, I gained practical experience in:
 - Applying data warehousing best practices
 - Preparing analytical datasets for reporting
 
- Author
-Prudhvi Surla
-Aspiring Data Analyst
+---
 
-Skills
+#  Author
+
+## **Prudhvi Surla**
+
+**Aspiring Data Analyst**
+
+### Skills
 
 - Power BI
 - SQL
@@ -209,5 +244,11 @@ Skills
 - Data Analysis
 - Data Visualization
 - Business Intelligence
-  
-⭐ If you found this project helpful, consider giving it a Star!
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, consider giving it a Star!
+
+</div>
