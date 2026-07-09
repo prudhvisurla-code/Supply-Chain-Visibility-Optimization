@@ -93,14 +93,6 @@ Place the image inside the repository and GitHub will display it automatically.
 Data_model.png
 ```
 
-Or embed it directly:
-
-```markdown
-<p align="center">
-<img src="Data_model.png" width="900">
-</p>
-```
-
 ---
 
 #  Data Modeling Process
