@@ -1,12 +1,12 @@
-# 📦 Supply Chain Visibility & Optimization Dashboard
+#  Supply Chain Visibility & Optimization Dashboard
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on analyzing supply chain performance using Power BI. The dashboard provides insights into inventory management, delivery performance, and operational efficiency to help businesses make data-driven decisions.
 
 ---
 
-🎯 Objectives
+ Objectives
 
 - Monitor inventory performance.
 - Identify fast-moving and slow-moving products.
@@ -16,7 +16,7 @@ This project focuses on analyzing supply chain performance using Power BI. The d
 
 ---
 
-🛠️ Tools & Technologies
+ Tools & Technologies
 
 - Power BI
 - Power Query
@@ -26,7 +26,7 @@ This project focuses on analyzing supply chain performance using Power BI. The d
 
 ---
 
-📊 Dashboard Features
+ Dashboard Features
 
 Inventory Analytics
 - Total Inventory Value
@@ -46,7 +46,7 @@ Delivery Performance
 
 ---
 
-📈 Inventory Turnover Calculation Approach
+ Inventory Turnover Calculation Approach
 
 Formula:
 Inventory Turnover = Cost of Goods Sold (COGS) ÷ Average Inventory Value
@@ -60,7 +60,7 @@ Dashboard Approach:
 
 ---
 
-🚀 Slow-Moving and Fast-Moving Inventory Identification Logic
+ Slow-Moving and Fast-Moving Inventory Identification Logic
 
 Category Logic:
 - Fast Moving: Sold recently (Low Days Since Last Sale)
@@ -75,7 +75,7 @@ Else → Fast Moving
 
 ---
 
-🚚 Delivery Performance Analysis Methodology
+ Delivery Performance Analysis Methodology
 
 Metrics Used:
 - Average Delivery Time
@@ -93,7 +93,7 @@ Analysis Steps:
 
 ---
 
-💡 Key Insights
+ Key Insights
 
 - Fast-moving products contribute significantly to inventory turnover.
 - Slow-moving and dead stock increase inventory holding costs.
@@ -103,7 +103,7 @@ Analysis Steps:
 
 ---
 
-📈 Business Recommendations
+ Business Recommendations
 
 - Replenish fast-moving products proactively to prevent stockouts.
 - Reduce slow-moving inventory through promotions or optimized purchasing.
@@ -114,7 +114,7 @@ Analysis Steps:
 
 ---
 
-📷 Dashboard Preview
+ Dashboard Preview
 
 Inventory Dashboard:
 screenshots/Inventory_Analytics.png.png
@@ -124,7 +124,7 @@ screenshots/Delivery_Performance.png.png
 
 ---
 
-📁 Repository Structure
+ Repository Structure
 
 Milestone2_PowerBI.pbix.pbix
 screenshots/
@@ -134,8 +134,8 @@ README.md
 
 ---
 
-📌 Conclusion
+ Conclusion
 
 This dashboard enables businesses to monitor inventory health, improve delivery performance, and make informed supply chain decisions. By combining inventory analytics with logistics insights, organizations can reduce costs, enhance operational efficiency, and improve customer satisfaction.
 
-⭐ If you found this project useful, consider giving it a star!
+ If you found this project useful, consider giving it a star!
